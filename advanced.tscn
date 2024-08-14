@@ -1,13 +1,28 @@
-[gd_scene load_steps=2 format=3 uid="uid://cyi3yddn41mos"]
+[gd_scene load_steps=5 format=3 uid="uid://cyi3yddn41mos"]
 
 [ext_resource type="Script" path="res://advanced.gd" id="1_axplx"]
+[ext_resource type="Script" path="res://tutorial_resource.gd" id="2_fjimi"]
+
+[sub_resource type="Resource" id="Resource_ybefd"]
+script = ExtResource("2_fjimi")
+name = "Ice Cone"
+maximumRange = 1
+attack = 5
+
+[sub_resource type="Resource" id="Resource_14jmc"]
+script = ExtResource("2_fjimi")
+name = "Fireball"
+maximumRange = 3
+attack = 7
 
 [node name="Advanced" type="Node2D"]
 script = ExtResource("1_axplx")
-teamName = "Red"
-teamColor = Color(1, 0, 0, 1)
+teamName = "Blue"
+teamColor = Color(0, 0, 1, 1)
 npcBaseHealth = 0.0
-npcBaseTrainedClasses = 1
+npcBaseHurtboxShape = null
+npcBaseTrainedClasses = 3
+npcBaseSpells = [SubResource("Resource_ybefd"), SubResource("Resource_14jmc")]
 npcExtraAttackPower = 0
 npcExtraPotionBags = [Array[int]([0, 1, 0, 2]), Array[int]([1, 2])]
 npcExtraSpellFriendlyFire = false
