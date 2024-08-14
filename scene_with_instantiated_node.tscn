@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://m4nxaw3r248"]
+
+[ext_resource type="PackedScene" uid="uid://doujqcjpemjws" path="res://advanced_v2.tscn" id="1_elo0i"]
+[ext_resource type="Script" path="res://new_resource.gd" id="2_dfeql"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_spx8s"]
+radius = 81.46
+height = 320.46
+
+[sub_resource type="Resource" id="Resource_16ibt"]
+script = ExtResource("2_dfeql")
+teamName = "Green"
+teamColor = Color(0, 1, 0, 1)
+npcBaseHealth = 0.0
+npcBaseHurtboxShape = SubResource("CapsuleShape2D_spx8s")
+npcBaseTrainedClasses = 5
+npcBaseSpells = []
+npcExtraAttackPower = 0
+npcExtraPotionBags = []
+
+[node name="SceneWithInstantiatedNode" type="Node2D"]
+
+[node name="AdvancedV2" parent="." instance=ExtResource("1_elo0i")]
+newResource = SubResource("Resource_16ibt")

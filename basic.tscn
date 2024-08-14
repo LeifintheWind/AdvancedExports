@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnhhj6lc62l0c"]
+
+[ext_resource type="Script" path="res://basic.gd" id="1_cinm2"]
+
+[node name="Basic" type="Node2D"]
+script = ExtResource("1_cinm2")
+teamName = "Red"
+teamColor = Color(0.690196, 0.129412, 0, 1)
+trainedClasses = 16
+health = 5.0
+baseAttack = 10
+potionBags = Array[Array]([[1, 4], [3, 4]])
+spellDamage = 5.6
