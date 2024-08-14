@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://doujqcjpemjws"]
 
 [ext_resource type="Script" path="res://advanced_v2.gd" id="1_r6ug3"]
-[ext_resource type="Script" path="res://new_resource.gd" id="2_igcrh"]
+[ext_resource type="Script" path="res://tool_resource.gd" id="2_igcrh"]
 [ext_resource type="Script" path="res://child_node.gd" id="3_rj4mt"]
 [ext_resource type="Script" path="res://Visualizer.gd" id="4_sgsfh"]
 

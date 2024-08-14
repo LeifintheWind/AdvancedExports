@@ -1,5 +1,10 @@
 extends Node2D
+## Made by LeifInTheWind 13-Aug-24
+## This is a companion project for the advanced exports tutorial on
+## youtube by https://www.youtube.com/@Leif_in_the_Wind
 
+## Basic exports documentation here:
+## https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_exports.html
 @export_category("Team Category")
 @export var teamName: String = ""
 @export var teamColor: Color

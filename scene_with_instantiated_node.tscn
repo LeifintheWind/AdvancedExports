@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://m4nxaw3r248"]
 
 [ext_resource type="PackedScene" uid="uid://doujqcjpemjws" path="res://advanced_v2.tscn" id="1_elo0i"]
-[ext_resource type="Script" path="res://new_resource.gd" id="2_dfeql"]
+[ext_resource type="Script" path="res://tool_resource.gd" id="2_dfeql"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_spx8s"]
 radius = 81.46

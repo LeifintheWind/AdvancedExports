@@ -30,14 +30,15 @@ func _get_property_list() -> Array:
 	var properties: Array = []
 	properties.append({
 		"name": "Team Category",
-		"type": TYPE_NIL,
+		"type": TYPE_NIL, # Categories don't have a variant type
 		"usage": PROPERTY_USAGE_CATEGORY,
-		"hint_string": "team"
+		"hint_string": "team" # This must match the proceeding variable prefixes,
+								# such as in the following teamName and teamColor
 	})
 	properties.append({
 		"name": "teamName",
 		"type": TYPE_STRING,
-		"usage": PROPERTY_USAGE_DEFAULT,
+		"usage": PROPERTY_USAGE_DEFAULT, #
 	})
 	properties.append({
 		"name": "teamColor",
