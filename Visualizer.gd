@@ -21,7 +21,7 @@ func _process(_delta) -> void:
 			update_shape()
 
 ## A simple function. Other methods for getting the necessary
-## information to the visualizer and updating the editor are possible
+## information to the visualizer and updating the editor are possible;
 ## including using the draw function. The visualizer can also call
 ## functions from tool resources/scripts in order to set up variables that
 ## the visualizer wants to access.

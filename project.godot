@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Tutorials"
+config/name="Advanced Exports Tutorial"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 

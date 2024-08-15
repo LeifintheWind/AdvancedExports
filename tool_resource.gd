@@ -5,7 +5,7 @@ class_name NewResource
 ## This is a companion project for the advanced exports tutorial on
 ## youtube by https://www.youtube.com/@Leif_in_the_Wind
 
-## Double hash addes the comment to the inspector.
+## Double hash adds the comment to the inspector.
 var teamName: String:
 	set(value):
 		teamName = value
@@ -13,7 +13,7 @@ var teamName: String:
 ## The team color will update if the team name is set to
 ## Red, Green, or Blue.
 var teamColor: Color
-## [b]Double hash comments can be formatted like so. [/b] [br]
+## [b]Double hash comments can be formatted like so.[/b][br]
 ## More information is in the Godot docs here: [br]
 ## https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_documentation_comments.html
 var npcBaseHealth: float
@@ -21,6 +21,9 @@ var npcExtraAttackPower: int
 var npcExtraSpellFriendlyFire: bool
 var npcExtraSpellDamage: float
 
+## The array can be statically typed if desired,
+## but for multidimensional arrays in gdscript this isn't
+## particularly helpful.
 var npcExtraPotionBags: Array = []
 ## This produces an array of strings that match the Enum "names"
 var potionsKeys: Array = potionTypes.keys()
