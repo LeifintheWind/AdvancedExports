@@ -1,3 +1,4 @@
+@tool
 extends Node2D
 ## Made by LeifInTheWind 13-Aug-24
 ## This is a companion project for the advanced exports tutorial on
@@ -11,6 +12,7 @@ extends Node2D
 
 @export_category("NPC Category")
 @export_group("Base Properties")
+@export_tool_button("Print Team Color", "ColorRect") var displayColor = display_team_color
 @export_flags("WIZARD:4", "WARRIOR:8", "THIEF:16") var trainedClasses: int
 @export var health: float = 3.0
 
@@ -21,3 +23,6 @@ extends Node2D
 @export_subgroup("Wizard Spell Attack")
 @export var friendlyFire: bool = false
 @export_range(1, 20, 0.2) var spellDamage: float
+
+func display_team_color():
+	print(teamColor)
