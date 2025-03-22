@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cyi3yddn41mos"]
 
-[ext_resource type="Script" path="res://advanced.gd" id="1_axplx"]
-[ext_resource type="Script" path="res://tutorial_resource.gd" id="2_fjimi"]
+[ext_resource type="Script" uid="uid://cjiocfle2h23q" path="res://advanced.gd" id="1_axplx"]
+[ext_resource type="Script" uid="uid://bgtqc3bovnikg" path="res://tutorial_resource.gd" id="2_fjimi"]
 
 [sub_resource type="Resource" id="Resource_ybefd"]
 script = ExtResource("2_fjimi")

@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Advanced Exports Tutorial"
-config/features=PackedStringArray("4.2", "GL Compatibility")
+config/name="Tutorial Advanced Exports"
+config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [rendering]

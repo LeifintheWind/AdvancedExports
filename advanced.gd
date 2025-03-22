@@ -72,6 +72,10 @@ func check_team_color() -> void:
 		"Blue":
 			teamColor = Color(0, 0, 1, 1)
 
+## Function called by the Print Team Color button
+func npcBase_display_team_color() -> void:
+	print(teamColor)
+
 ## Incorrect scripting in a tool script can cause the script to completely
 ## "shut down" and for the inspector to not display anything at all related
 ## to the script. Save/commit often and add things slowly to prevent confusion
@@ -117,6 +121,13 @@ func _get_property_list() -> Array:
 		"usage": PROPERTY_USAGE_GROUP,
 		"hint_string": "npcBase" # This hint string must contain "npc" in order
 								# to be apart of the "NPC Info" category
+	})
+	properties.append({
+		"name": "npcBase_display_team_color",
+		"type": TYPE_CALLABLE,
+		"usage": PROPERTY_USAGE_EDITOR,
+		"hint": PROPERTY_HINT_TOOL_BUTTON,
+		"hint_string": "Print Team Color,ColorRect",
 	})
 	properties.append({
 		"name": "npcBaseHealth",
