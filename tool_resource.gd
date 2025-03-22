@@ -2,6 +2,7 @@
 extends Resource
 class_name NewResource
 ## Made by LeifInTheWind 13-Aug-24
+## Updated 22-Mar-25
 ## This is a companion project for the advanced exports tutorial on
 ## youtube by https://www.youtube.com/@Leif_in_the_Wind
 
