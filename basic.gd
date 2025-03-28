@@ -13,8 +13,10 @@ extends Node2D
 
 @export_category("NPC Category")
 @export_group("Base Properties")
-@export_tool_button("Print Team Color", "ColorRect") var displayColor = display_team_color
-@export_flags("WIZARD:4", "WARRIOR:8", "THIEF:16") var trainedClasses: int
+@export_tool_button("Print Team Color", "ColorRect") \
+	var displayColor = display_team_color
+@export_flags("WIZARD:4", "WARRIOR:8", "THIEF:16") \
+	var trainedClasses: int
 @export var health: float = 3.0
 
 @export_group("Extra Properties")

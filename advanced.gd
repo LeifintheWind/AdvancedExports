@@ -120,8 +120,9 @@ func _get_property_list() -> Array:
 		"name": "Base Properties",
 		"type": TYPE_NIL,
 		"usage": PROPERTY_USAGE_GROUP,
-		"hint_string": "npcBase" # This hint string must contain "npc" in order
-								# to be apart of the "NPC Info" category
+		# This hint string must contain "npc" in order
+		# to be apart of the "NPC Info" category
+		"hint_string": "npcBase"
 	})
 	properties.append({
 		"name": "npcBase_display_team_color",
